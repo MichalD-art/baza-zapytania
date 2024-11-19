@@ -1,0 +1,4 @@
+kw1:SELECT nazwaPliku, podpis FROM zdjecia ORDER BY podpis ASC;
+kw2:SELECT cel, dataWyjazdu FROM wycieczki WHERE dostepne = 0;
+kw3:SELECT cel, cena, podpis FROM wycieczki w JOIN zdjecia z ON zdjecia_id = z.id WHERE w.cena > 1300;
+kw4:DROP TABLE uzytkownik;
